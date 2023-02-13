@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List </title>
+    <link rel="stylesheet" href="./todo.css">
+</head>
+<body id="body">
+    <!-- section 1 -->
+    <div class="nav">
+        <h1> Todo List </h1>
+        <button> Dark Theme </button>
+    </div>
+    <!-- end of section 1 -->
+ <div class="container">
+    <!-- section 2 -->
+    <div class="search">
+        <input type="text" placeholder=" Search Todos"> <label for="">search </label>
+
+    </div>
+    <!-- end of section 2 -->
+    <!--  section 3 -->
+    <div class="tasks">
+        <h1> Tasks </h1>
+        <ol>
+            <!-- <li>
+                <span >Javacript Lectures</span>
+                <span class="delete" id="todo1"> Delete</span>
+            </li>
+            <li>
+                <span > Do Assignmet</span>
+                <span class="delete" id="todo2"> Delete</span>
+            </li>
+            <li>
+                <span >Take W3shools Javascript Tutorial</span>
+                <span class="delete" id="todo3"> Delete</span>
+            </li> -->
+        </ol>
+    </div>
+    <!-- end of section 3 -->
+
+    <!--section 4  -->
+    <form class="addTask">
+        <input type="text" placeholder=" Add a Tasks"> <label for="">add task </label>
+
+    </form>
+    <!-- end of section 4 -->
+
+
+    <!-- section 5: change and keyup event -->
+
+    <form class="lastForm">
+        <input type="text" required> <label for="">Name</label> <br>
+        <label for=""> Country</label> <select name="country" id="country">
+            <option value="nig">Nigeria</option>
+            <option value="gha">Ghana</option>
+            <option value="spa">Spain</option>
+            <option value="sa">South-Africa</option>
+            <option value="egy">Egypt</option>
+        </select>
+    </form>
+
+ </div>
+
+
+ <script src="./todo.js"></script>
+    
+</body>
+</html>
